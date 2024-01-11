@@ -21,7 +21,7 @@ import {
   IconArrowRightCircle,
   IconArrowRightTail,
 } from "@tabler/icons-react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export const Destinations = () => {
   const interior = [
@@ -200,7 +200,9 @@ export const Destinations = () => {
                         {card.description}
                       </p>
                       <Link
-                       to="/contactus"
+                       to="contactus"
+                       spy={true}
+                       smooth={true}
                         className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#FF3D00] rounded-lg hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300  transform transition duration-500 hover:scale-125"
                       >
                         Get Free Quote

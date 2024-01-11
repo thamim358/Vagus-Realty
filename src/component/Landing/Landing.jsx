@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import WOW from "wow.js";
 import "./Landing.scss";
-import logo from "../img/REALTY WHITE (2).png";
-import { Link } from "react-router-dom";
+import logo from "../img/REALTY WHITE.png";
+import { Link } from "react-scroll";
 
 
 function Landing() {
@@ -32,7 +32,9 @@ function Landing() {
             Shaping Your Vision into Reality
             </h1>
             <Link
-                       to="/contactus"
+                       to="contactus"
+                       spy={true}
+                       smooth={true}
                         className="inline-flex items-center px-3 py-3 text-sm font-medium text-center text-white bg-[#FF3D00] rounded-lg hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300  transform transition duration-500 hover:scale-125"
                       >
                         Get Free Quote

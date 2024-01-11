@@ -3,6 +3,7 @@ import WOW from "wow.js";
 import { IconLocation, IconMail, IconPhoneCalling, IconRecordMail } from "@tabler/icons-react";
 import left from "../img/tright.png";
 import "./contact.scss"
+import Header from "../Header/Header";
 function ContactUs() {
   useEffect(() => {
     const wow = new WOW();
@@ -11,8 +12,8 @@ function ContactUs() {
 
   return (
     <>
-    
-      <section className="contact space" id="contactme">
+    {/* <Navbar/> */}
+      <section className="contact space" id="contactus">
         <div className="lg:px-12 pb-10">
           <div className="flex flex-col justify-center items-center md:flex-row mt-5">
           <div className="sm:p-12 lg:mt-5 p-4 mt-5 mr-10 justify-self-center md:justify-center">
