@@ -104,7 +104,7 @@ export const Diffrence = () => {
           </p>
 
           <div className="flex flex-wrap justify-center mt-24 wow fadeInUp mx-10 lg:mx-24">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
               {cardsData.map((card, index) => (
                 <div className="flex" key={index}>
                   <div

@@ -28,9 +28,9 @@ function App() {
 
   return (
     <>
-      {/* {loading ? (
+      {loading ? (
         <Loader/> // Show the loader while content is loading
-      ) : ( */}
+      ) : (
         <Router>
         <ScrollToTop />
           <Routes>
@@ -44,7 +44,7 @@ function App() {
           </Routes>
           {/* <Footers/> */}
         </Router>
-      {/* )} */}
+       )}
     </>
   );
 }
